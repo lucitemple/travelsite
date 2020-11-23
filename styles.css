@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(34, 187, 187, 0.966);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(19, 17, 17, 0.445);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+nav a:hover {
+    color: wheat;
+    background-color: rgba(7, 48, 48, 0.966);
+}
+
+nav a:visited {
+    color: rgb(179, 232, 245);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(7, 48, 48, 0.966);
+}
+
+blockquote {
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+footer {
+    text-align: center;
+    font-size: .5rem;
+    margin-bottom: 50px;
+}
+
+/* home page style */
+.homecontent {  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 1.5em;  
+    color: rgb(40, 36, 36);  
+    width: 70%;  
+    border: 2px solid black;  
+    margin: auto;
+}
+
+/* stories page style */
+
+.stories {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stories > article {  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+    max-width: 300px;  
+    padding: 2px;  
+    margin-bottom: 20px;  
+    margin-right: 20px;  
+    font-family: arial;
+}
+
+.stories > article > p,h3 {  
+    padding: 2px;  
+    margin: 5px;  
+    color: #803376;
+}
+
+.stories > article > img {  
+    width: 300px;  
+    opacity: 0.8;
+}
